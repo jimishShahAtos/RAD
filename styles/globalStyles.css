@@ -1,0 +1,314 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("fonts.css");
+
+
+html,
+body {
+    background: #fff;
+    font-family: Montserrat-Regular;
+}
+a{
+    cursor: pointer;
+    text-decoration: none !important;
+    outline: none;
+}
+/* header */
+.header{
+    background: yellow;
+    padding: 30px 40px;
+}
+.logo a{
+    background: url("../images/logo.svg") no-repeat;
+    height: 37px;
+    width: 208px;
+}
+
+.header.nav-link {
+    background-size: cover !important;
+    height: 36px;
+    width: 36px
+}
+
+.topNav ul{
+    list-style-type: none;
+}
+
+.topNav ul li{
+    line-height: 37px;  
+    width: 55px;  
+}
+.topNav ul li a,
+.gridSection li a{
+    display: block;
+}
+.topNav ul li:first-child,
+.gridSection li:first-child{
+    border-right: 2px solid #bababa;
+}
+
+.email {
+    background: url("../images/iconEmail.png") no-repeat 10px !important;
+}
+
+.testimonial {
+    background: url("../images/iconTestimonial.png") no-repeat 0 !important;
+}
+
+.border-end {
+    border: 2px solid #333 100% !important
+}
+
+/* END header */
+
+/* Benner */
+.carousel-item {
+    width: 1440px;
+    height: 528px;
+}
+
+.carousel-indicators {
+    bottom: 5rem !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+    height: 6px;
+    width: 6px;
+}
+
+.carousel-indicators .carausel {
+    background: #d9d9d9 !important;
+}
+
+.carousel-indicators .carausel.active {
+    background: #ff6d43 !important;
+}
+
+.rounded-circle {
+    border-radius: 100% !important;
+}
+
+.carousel-caption {
+    left: 2rem !important;
+    top: 5rem !important;
+    text-align: left !important;
+}
+
+.carousel-inner p{
+    width: 70%;
+}
+
+/* END Banner */
+
+/* Searchbox */
+.searchBar {
+    background: #ECECED;
+    padding: 3em 0.5em;
+    top: 34.5em;
+    margin: 0 20% 0 13%;
+}
+
+.searchBar .input-group-lg>.form-control {
+    margin-right: 1.25em;
+    padding: 0.80rem 1rem !important;
+}
+
+.search {
+    background: url("../images/iconSearch.png") no-repeat 16px;
+    background-size: cover 30px 30px;
+    width: 30px;
+}
+
+.btn-action {
+    background: #002D3C;
+    width: 149px;
+}
+
+/* END Searchbox */
+
+/* Contents */
+.contents {
+    margin-top: 10em;
+}
+
+/* Tabbed Nav */
+.nav-tabs{
+    border-bottom: 2px solid #000;
+}
+.nav-tabs .nav-link{
+    margin-bottom: -2px;
+}
+.nav-tabs>li>a{
+    border: 0px;
+}
+.nav li:hover a {
+    border: none;
+    background: none;
+    color: #00adee;
+}
+.tabBox a,.nav-link{
+    background: none;
+    border-bottom: none;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-pills .nav-link.active, .tabBox a.active,
+.nav-tabs .nav-link:focus, .tabBox a:focus{
+    border: none !important;
+    border-bottom: 3px solid #FF6D43 !important;
+    color: #FF6D43 !important;
+}
+.nav-tabs .nav-link:hover, .tabBox a:hover{
+    border: none;
+}
+.nav-pills, .menuSection{
+    border-bottom: 1px solid #000 !important;
+}
+.menuSection{
+    margin-top: 0.5em;
+}
+
+.nav-link label{
+    cursor: pointer;
+}
+.w-90{
+    width: 85%;
+}
+.w-10{
+    width: 15%;
+}
+.list{
+    background: url("../../../assets/images/icon-list-bulleted.svg") no-repeat 0;
+    background-size: cover;
+    height: 38px; 
+    width: 38px;
+}
+.list a{
+    height: 38px; 
+    width: 38px;
+}
+.grid{
+    background: url("../../../assets/images/iconGrid.svg") no-repeat 0 0;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    margin-top: 0.4em;
+}
+.grid a{
+    height: 25px;
+    width: 25px;
+}
+/* END Tabbed Nav */
+.contents{
+    padding: 0;
+}
+
+/* gridSection */
+.gridSection li{
+    line-height: 28px;
+    height: 28px;
+    width: 50px;
+}
+
+
+.list{
+    background: url("../images/icon-list-bulleted.svg") no-repeat 0 -4px !important;   
+}
+.grid{
+    background: url("../images/iconGrid.svg") no-repeat 10px 0 !important;   
+}
+
+/* Filter Section */
+.cxTowers{
+    width: 155px;
+}
+.cxTech{
+    width: 100px;
+}
+.form-check-input:checked {
+    background-color: red;
+    border-color: pink;
+}
+
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='pink'/%3e%3c/svg%3e");
+  box-shadow: none;
+}
+
+.badge{
+    background: #E5F2F4;
+    border: 1px solid #FF6D43;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-sort{
+    font-weight: 500;
+}
+
+.gridSection .card{
+    cursor: pointer;
+}
+
+.gridSection .card img.card-img-top{
+    border-bottom: 4px solid #FF6D43 !important;
+    object-fit: cover;
+    object-fit: contain;
+    height: 242px;
+    width: 409px;
+}
+
+.gridSection .card .card-body .card-title{
+    font-size: 20px !important;
+}
+.card-title{
+    font-family: Montserrat-SemiBold;
+}
+.publishedDate{
+    font-size: 11px;
+}
+.publishedDate label{
+    font-family: Montserrat-Bold;
+}
+
+
+.cardNav{
+    padding: 0;
+}
+.cardNav li{
+    border-right: none !important;
+    width: auto;
+}
+.cardNav .leftNav a{
+    background-size: cover;
+    border-bottom: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+}
+.leftNav li a img{
+    height: 18px;
+    width: 18px;
+}
+
+.rightNav li a img{
+    height: 22px;
+    width: 20px;
+}
+.rightNav li a.download img{
+    height: 27px;
+    width: 25px;
+}
+
+.testimonials{
+    background: #ECECED;
+    height: 578px;
+}
+.testimonials h1{
+    font-size: 52px;
+    font-weight: bold;
+}

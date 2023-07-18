@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVIDEN</title>
+
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+</head>
+
+<body>
+    <div class="container-fluid min-vh-100 bg-blue">
+        <div class="row">
+            <!-- header -->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 bg-white shadow header">
+                <div class="col-9 col-sm-0 col-md-9 col-lg-9 col-xl-9 col-xxl-9 float-start logo">
+                    <a class="flex-grow-1 p-2 bd-highlight d-block" href="#" title="EVIDEN Logo"></a>
+                </div>
+                <!-- End Logo -->
+
+                <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 float-end text-end topNav">
+                    <ul class="m-0">
+                        <li class="d-inline-block testimonial">
+                            <a class="" href="#" title="Testimonial">&nbsp;</a>
+                        </li>
+                        <li class="d-inline-block email">
+                            <a class="" href="#" title="Email">&nbsp;</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END topNav -->
+            </div>
+            <!-- END header -->
+
+            <!-- Banner -->
+            <div id="bsCarausel" class="carousel p-0 slide" data-bs-ride="carousel" data-mdb-slide-to="3"
+                data-bs-wrap="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#bsCarausel" data-bs-slide-to="0"
+                        class="active carausel rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#bsCarausel" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="carausel rounded-circle"></button>
+                    <button type="button" data-bs-target="#bsCarausel" data-bs-slide-to="2" aria-label="Slide 3"
+                        class="carausel rounded-circle"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="100">
+                        <img src="./images/Banner-1.png" class="d-block w-100" alt="Banner-1" />
+                        <div class="carousel-caption d-none d-md-block text-white w-50">
+                            <h1 class="text-uppercase">Lorem Ipsum Dolor Sit Amet</h1>
+                            <h2 class="text-uppercase fw-normal">Contesectetur Adipicing Elit</h2>
+                            <p class="h4 text-uppercase fw-light pt-3">Pellentesque habitant morbi tristique senectus et
+                                netus et malesuada fames ac turpis egestas. Aenean erat diam, dapibus a gravida non,
+                                commodo
+                                nec purus.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./images/Banner-2.png" class="d-block w-100" alt="Banner-2" />
+                        <div class="carousel-caption d-none d-md-block text-white w-50">
+                            <h1 class="text-uppercase">Lorem Ipsum Dolor Sit Amet</h1>
+                            <h2 class="text-uppercase fw-normal">Contesectetur Adipicing Elit</h2>
+                            <p class="h4 text-uppercase fw-light pt-3">Pellentesque habitant morbi tristique senectus et
+                                netus et malesuada fames ac turpis egestas. Aenean erat diam, dapibus a gravida non,
+                                commodo
+                                nec purus.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./images/Banner-3.png" class="d-block w-100" alt="Banner-3" />
+                        <div class="carousel-caption d-none d-md-block text-white w-50">
+                            <h1 class="text-uppercase">Lorem Ipsum Dolor Sit Amet</h1>
+                            <h2 class="text-uppercase fw-normal">Contesectetur Adipicing Elit</h2>
+                            <p class="h4 text-uppercase fw-light pt-3">Pellentesque habitant morbi tristique senectus et
+                                netus et malesuada fames ac tu`rpis egestas. Aenean erat diam, dapibus a gravida non,
+                                commodo nec purus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Banner -->
+
+            <!-- SearchBox -->
+            <div
+                class="justify-content-md-center shadow col col-md-8 col-lg-8 col-xl-8 col-xxl-8 searchBar position-absolute">
+                <div class="card-body d-flex align-items-center mx-3">
+                    <div class="input-group input-group-lg shadow-sm">
+                        <span class="input-group-text bg-white border-0 shadow-none search px-4" id="iconSearch"></span>
+                        <input type="text" class="form-control border-0 shadow-none inputSearch rounded"
+                            aria-label="Large input group" aria-describedby="input-group-lg" />
+                    </div>
+                    <button type="button" class="btn btn-lg btn-dark rounded btn-action shadow-lg"
+                        id="input-group-button-right">Search</button>
+                </div>
+            </div>
+            <!-- END SearchBox -->
+
+            <!-- contents -->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 bg-white contents">
+                <div class="tabbedNav">
+                    <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 nav nav-tabs" id="nav-tab"
+                        role="tablist">
+                        <!-- tabBox -->
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11 float-start tabBox">
+                            <a class="d-inline-block nav-link active" id="nav-one-tab" data-bs-toggle="tab"
+                                href="#Tab-one" role="tab" aria-controls="nav-one" aria-selected="true">All (14)</a>
+
+                            <a class="d-inline-block nav-link" id="nav-two-tab" data-bs-toggle="tab" href="#tab-two"
+                                role="tab" aria-controls="nav-two" aria-selected="false">Banking <label
+                                    class="fw-normal">(14)</label></a>
+
+                            <a class="d-inline-block nav-link" id="nav-three-tab" data-bs-toggle="tab" href="#tab-three"
+                                role="tab" aria-controls="nav-three" aria-selected="false">Insurance <label
+                                    class="fw-normal">(05)</label></a>
+
+                            <a class="d-inline-block nav-link" id="nav-four-tab" data-bs-toggle="tab" href="#tab-four"
+                                role="tab" aria-controls="nav-four" aria-selected="false">Healthcare <label
+                                    class="fw-normal">(02)</label></a>
+
+                            <a class="d-inline-block nav-link" id="nav-five-tab" data-bs-toggle="tab" href="#tab-five"
+                                role="tab" aria-controls="nav-five" aria-selected="false">Logistics <label
+                                    class="fw-normal">(08)</label></a>
+
+                            <a class="d-inline-block nav-link" id="nav-six-tab" data-bs-toggle="tab" href="#tab-six"
+                                role="tab" aria-controls="nav-six" aria-selected="false">Telecom <label
+                                    class="fw-normal">(08)</label></a>
+
+                            <a class="d-inline-block nav-link" id="nav-seven-tab" data-bs-toggle="tab" href="#tab-seven"
+                                role="tab" aria-controls="nav-seven" aria-selected="false">Manufacturing <label
+                                    class="fw-normal">(04)</label></a>
+                        </div>
+                        <!-- END tabBox -->
+
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 gridSection">
+                            <ul class="m-0 p-0">
+                                <li class="d-inline-block list">
+                                    <a class="" title="List View">&nbsp;</a>
+                                </li>
+                                <li class="d-inline-block grid">
+                                    <a class="" title="Grid View">&nbsp;</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- END gridSection -->
+                    </nav>
+
+                    <!-- filterSection -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 p-4 clearfix filterSection">
+                        <div class="form-check form-switch d-inline-block float-start form-control-lg p-0">
+                            <label class="form-check-label float-start cxTowers" for="formSwitchCheckDefault">CX Towers</label>
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked />
+                            <label class="form-check-label float-start cxTech" for="formSwitchCheckDefault">CX Tech</label>                            
+                        </div>
+
+                        <div class="float-start badgeSection">
+                            <span class="badge text-black rounded-pill px-3 py-2 me-2">Immersive Design</span>
+                            <span class="badge text-black rounded-pill px-3 py-2 me-2">Mobile design</span>
+                            <span class="badge text-black rounded-pill px-3 py-2 me-2">UI Dev</span>
+                            <span class="badge text-black rounded-pill px-3 py-2 me-2">Analytics</span>
+                        </div>
+
+                        <div class="float-end">
+                            <div class="dropdown">
+                                <button class="btn border dropdown-toggle btn-sort" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="sortBy">
+                                    <img src="./images/sortBy.svg" alt="Sort by" />
+                                </i>
+                                Sort by
+                                </button>
+                                <ul class="dropdown-menu border" aria-labelledby="dropdownMenuButton1">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- END filterSection -->
+
+                    <div class="tab-content clearfix col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="Tab-one" role="tabpanel"
+                            aria-labelledby="nav-one-tab">
+                            <div class="row row-cols-1 row-cols-sm-2 g-3 m-0 gridSection mb-4">
+
+                                <!-- Card 1 -->
+                                <div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                                  <div class="card">
+                                    <img src="./images/Card_img_1.png" class="card-img-top img-fluid" alt="card-grid-image">
+                                    <div class="card-body">
+                                      <h5 class="card-title text-black pb-2">Nestle C4C Go</h5>
+                                        <p class="card-text publishedDate mb-1">Published on: <label class="fw-bolder">22/03/2023</label></p>
+
+                                        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 cardNav">
+                                            <ul class="nav float-start leftNav">
+                                                <li class="nav-item pe-4">
+                                                    <a class="nav-link comments" aria-current="page" href="#">
+                                                        <i class="pe-2"><img src="./images/comments.svg" alt="Comments" /></i>11 Comments
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link likes" href="#">
+                                                        <i class="pe-2"><img src="./images/likes.svg" alt="Likes" /></i>40 Likes
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="nav float-end rightNav">
+                                                <li class="nav-item pe-3">
+                                                    <a class="share" aria-current="page" href="#">
+                                                        <i><img src="./images/share.svg" alt="Comments" /></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="download" href="#">
+                                                        <i class="pe-2"><img src="./images/download@2x.svg" alt="Download" /></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- END Card 1 -->
+
+                                <!-- Card 2 -->
+                                <div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div class="card">
+                                      <img src="./images/Card_img_1.png" class="card-img-top img-fluid" alt="card-grid-image">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-black pb-2">Nestle C4C Go</h5>
+                                          <p class="card-text publishedDate mb-1">Published on: <label class="fw-bolder">22/03/2023</label></p>
+  
+                                          <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 cardNav">
+                                              <ul class="nav float-start leftNav">
+                                                  <li class="nav-item pe-4">
+                                                      <a class="nav-link comments" aria-current="page" href="#">
+                                                          <i class="pe-2"><img src="./images/comments.svg" alt="Comments" /></i>11 Comments
+                                                      </a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="nav-link likes" href="#">
+                                                          <i class="pe-2"><img src="./images/likes.svg" alt="Likes" /></i>40 Likes
+                                                      </a>
+                                                  </li>
+                                              </ul>
+  
+                                              <ul class="nav float-end rightNav">
+                                                  <li class="nav-item pe-3">
+                                                      <a class="share" aria-current="page" href="#">
+                                                          <i><img src="./images/share.svg" alt="Comments" /></i>
+                                                      </a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="download" href="#">
+                                                          <i class="pe-2"><img src="./images/download@2x.svg" alt="Download" /></i>
+                                                      </a>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <!-- END Card 2 -->
+
+                                <!-- Card 3 -->
+                                <div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div class="card">
+                                      <img src="./images/Card_img_1.png" class="card-img-top img-fluid" alt="card-grid-image">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-black pb-2">Nestle C4C Go</h5>
+                                          <p class="card-text publishedDate mb-1">Published on: <label class="fw-bolder">22/03/2023</label></p>
+  
+                                          <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 cardNav">
+                                              <ul class="nav float-start leftNav">
+                                                  <li class="nav-item pe-4">
+                                                      <a class="nav-link comments" aria-current="page" href="#">
+                                                          <i class="pe-2"><img src="./images/comments.svg" alt="Comments" /></i>11 Comments
+                                                      </a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="nav-link likes" href="#">
+                                                          <i class="pe-2"><img src="./images/likes.svg" alt="Likes" /></i>40 Likes
+                                                      </a>
+                                                  </li>
+                                              </ul>
+  
+                                              <ul class="nav float-end rightNav">
+                                                  <li class="nav-item pe-3">
+                                                      <a class="share" aria-current="page" href="#">
+                                                          <i><img src="./images/share.svg" alt="Comments" /></i>
+                                                      </a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="download" href="#">
+                                                          <i class="pe-2"><img src="./images/download@2x.svg" alt="Download" /></i>
+                                                      </a>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <!-- END Card 3 -->
+
+                                 <!-- Card 4 -->
+                                 <div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div class="card">
+                                      <img src="./images/Card_img_1.png" class="card-img-top img-fluid" alt="card-grid-image">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-black pb-2">Nestle C4C Go</h5>
+                                          <p class="card-text publishedDate mb-1">Published on: <label class="fw-bolder">22/03/2023</label></p>
+  
+                                          <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 cardNav">
+                                              <ul class="nav float-start leftNav">
+                                                  <li class="nav-item pe-4">
+                                                      <a class="nav-link comments" aria-current="page" href="#">
+                                                          <i class="pe-2"><img src="./images/comments.svg" alt="Comments" /></i>11 Comments
+                                                      </a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="nav-link likes" href="#">
+                                                          <i class="pe-2"><img src="./images/likes.svg" alt="Likes" /></i>40 Likes
+                                                      </a>
+                                                  </li>
+                                              </ul>
+  
+                                              <ul class="nav float-end rightNav">
+                                                  <li class="nav-item pe-3">
+                                                      <a class="share" aria-current="page" href="#">
+                                                          <i><img src="./images/share.svg" alt="Comments" /></i>
+                                                      </a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="download" href="#">
+                                                          <i class="pe-2"><img src="./images/download@2x.svg" alt="Download" /></i>
+                                                      </a>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <!-- END Card 4 -->
+  
+  
+                              </div>                          
+                        </div>
+
+                        <div class="tab-pane fade" id="tab-two" role="tabpanel" aria-labelledby="nav-two-tab">Tab Two
+                            content</div>
+
+                        <div class="tab-pane fade" id="tab-three" role="tabpanel" aria-labelledby="nav-three-tab">Tab
+                            Three content</div>
+
+                        <div class="tab-pane fade" id="tab-four" role="tabpanel" aria-labelledby="nav-four-tab">Tab Four
+                            content</div>
+
+                        <div class="tab-pane fade" id="tab-five" role="tabpanel" aria-labelledby="nav-five-tab">Tab five
+                            content</div>
+
+                        <div class="tab-pane fade" id="tab-six" role="tabpanel" aria-labelledby="nav-six-tab">Tab six
+                            content</div>
+
+                        <div class="tab-pane fade" id="tab-seven" role="tabpanel" aria-labelledby="nav-seven-tab">Tab
+                            seven content</div>
+                    </div>
+                </div>
+            </div>
+            <!-- END contents -->
+
+            <!-- testimonials -->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 p-5 testimonials">
+                <h1>Testimonials</h1>
+            </div>
+            <!-- END testimonials -->
+        </div>
+        <!-- END mainSection -->
+
+        <script src="./scripts/jquery.min.js"></script>
+        <script defer src="./scripts/bootstrap.js" crossorigin="anonymous"></script>
+        <script defer src="./scripts/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="./scripts/globalStyles.js"></script>
+</body>
+
+</html>
